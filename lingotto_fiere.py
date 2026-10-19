@@ -81,11 +81,11 @@ class LingottoFiere:
         self.stand = {}  # Dizionario per memorizzare gli stand
         self.espositori = {}  # Dizionario per memorizzare gli espositori
 
-    @property
+
     def nome(self):
         return self._nome
 
-    @nome.setter
+
     def nome(self, nuovo_nome):
         self._nome = nuovo_nome
 
